@@ -1,0 +1,61 @@
+/* Header */
+.container-fluid {
+  padding: 0 15%;
+  background-color: #9bbfab;
+  margin-top: 5px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+.profile {
+  border-radius: 50%;
+}
+
+/* Why Hire*/
+.why {
+  text-align: center;
+}
+
+li {
+  font-family: 'Acme', sans-serif;
+  list-style: none;
+}
+
+ul {
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+}
+
+/* Horizontal Ruler */
+hr {
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr:after {
+  background: #fff;
+  content: '';
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+/* Social Media */
+.email {
+  color: white;
+}
+
+i {
+  color: white;
+  font-size: 20px;
+}
+
+.social-media {
+  background-color: #41aaa8;
+  text-align: center;
+}
